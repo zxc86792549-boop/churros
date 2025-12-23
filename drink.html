@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스트릿츄러스</title>
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- js -->
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/sub.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/logo.png" alt="로고"></a></h1>
+                <nav>
+                    <ul class="gnb sub_gnb">
+                        <li><a href="story.html">회사소개</a>
+                            <ul class="depth2">
+                                <li><a href="story.html">브랜드스토리</a></li>
+                                <li><a href="ceo.html">CEO인사말</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="churros.html">메뉴</a>
+                            <ul class="depth2">
+                                <li><a href="churros.html">츄러스</a></li>
+                                <li><a href="coffee.html">커피</a></li>
+                                <li><a href="drink.html">음료</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.html">커뮤니티</a>
+                        <li><a href="shop.html">매장안내</a></li>
+                    </ul>
+                    <div class="mgnb_wrap">
+                        <ul class="mgnb">
+                            <li><a href="story.html">회사소개</a>
+                                <ul class="m_depth2">
+                                    <li><a href="story.html">브랜드스토리</a></li>
+                                    <li><a href="ceo.html">CEO인사말</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="churros.html">메뉴</a>
+                                <ul class="m_depth2">
+                                    <li><a href="churros.html">츄러스</a></li>
+                                    <li><a href="coffee.html">커피</a></li>
+                                    <li><a href="drink.html">음료</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="news.html">커뮤니티</a>
+                            <li><a href="shop.html">매장안내</a></li>
+                        </ul>
+                        <button class="btn_close">메뉴닫기</button>
+                    </div>
+                </nav>
+                <div class="util">
+                    <button class="btn_franchise"><a href="#">창업안내</a></button>
+                    <button class="btn_ham">메뉴열기</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="churros_list">
+            <div class="churros_visual bg1">
+                <h2>Menu</h2>
+            </div>
+            <div class="inner">
+                <h3 data-aos="fade-up">음료</h3>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu22.png" alt="">
+                                <strong>밀크 아이스크림</strong>
+                                <span>Milk Ice Cream</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>밀크 아이스크림</strong>
+                                <span>Milk Ice Cream</span>
+                                <dd>알레르기 유발재료: 우유</dd>
+                                <dd>영양성분표시 1회제공량 120g (135kcal)</dd>
+                                <dd>탄수화물(24g) 당류(21g)단백질(3g)지방(28g)포화지방(2.3g) 나트륨(90mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu23.png" alt="">
+                                <strong>초코 아이스크림</strong>
+                                <span>Chocolate Ice Cream</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>초코 아이스크림</strong>
+                                <span>Chocolate Ice Cream</span>
+                                <dd>알레르기 유발재료: 우유, 대두, 밀 </dd>
+                                <dd>영양성분표시 1회제공량 125g (190kcal)</dd>
+                                <dd>탄수화물(30g) 당류(24g)단백질(4g)지방(6g)포화지방(4.7g) 나트륨(105mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu21.png" alt="">
+                                <strong>흑당 아이스크림</strong>
+                                <span>Brown Sugar Ice Cream</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>흑당 아이스크림</strong>
+                                <span>Brown Sugar Ice Cream</span>
+                                <dd>알레르기 유발재료: 우유</dd>
+                                <dd>영양성분표시 1회제공량 155g (251kcal)</dd>
+                                <dd>탄수화물(53g) 당류(39g)단백질(3g)지방(2.7g)포화지방(1.7g) 나트륨(75mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu14.png" alt="">
+                                <strong>핫/아이스 초코</strong>
+                                <span>Hot/Iced Chocolate</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>핫/아이스 초코</strong>
+                                <span>Hot/Iced Chocolate</span>
+                                <dd>알레르기 유발재료: 우유, 대두</dd>
+                                <dd>영양성분표시 1회제공량 295g (331kcal)</dd>
+                                <dd>탄수화물(58g) 당류(46g)단백질(9g)지방(7g)포화지방(5g) 나트륨(115mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu25.png" alt="">
+                                <strong>밀크쉐이크</strong>
+                                <span>Street Shake</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>밀크쉐이크</strong>
+                                <span>Street Shake</span>
+                                <dd>알레르기 유발재료: 우유</dd>
+                                <dd>영양성분표시 1회제공량 470g (418kcal)</dd>
+                                <dd>탄수화물(59g) 당류(48g)단백질(14g)지방(14g)포화지방(10g) 나트륨(278mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu24.png" alt="">
+                                <strong>초코쉐이크</strong>
+                                <span>Street Shake</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>초코쉐이크</strong>
+                                <span>Street Shake</span>
+                                <dd>알레르기 유발재료: 우유, 대두</dd>
+                                <dd>영양성분표시 1회제공량 390g (399kcal)</dd>
+                                <dd>탄수화물(62g) 당류(52g)단백질(13g)지방(11g)포화지방(8g) 나트륨(216mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu26.png" alt="">
+                                <strong>레몬에이드</strong>
+                                <span>Lemon Ade</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>레몬에이드</strong>
+                                <span>Lemon Ade</span>
+                                <dd>알레르기 유발재료: 없음</dd>
+                                <dd>영양성분표시 1회제공량 495g (188kcal)</dd>
+                                <dd>탄수화물(46g) 당류(39g)단백질(1g)지방(0g)포화지방(0g) 나트륨(145mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu27.png" alt="">
+                                <strong>자몽에이드</strong>
+                                <span>Grapdfruit Ade</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>자몽에이드</strong>
+                                <span>Grapdfruit Ade</span>
+                                <dd>알레르기 유발재료: 없음</dd>
+                                <dd>영양성분표시 1회제공량 495g (196kcal)</dd>
+                                <dd>탄수화물(47g) 당류(42g)단백질(2g)지방(0g)포화지방(0g) 나트륨(90mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu28.png" alt="">
+                                <strong>샤인머스켓에이드</strong>
+                                <span>Shine muscat Ade</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>샤인머스켓에이드</strong>
+                                <span>Shine muscat Ade</span>
+                                <dd>알레르기 유발재료: 없음</dd>
+                                <dd>영양성분표시 1회제공량 500g (272kcal)</dd>
+                                <dd>탄수화물(67g) 당류(62g)단백질(1g)지방(0g)포화지방(0g) 나트륨(65mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu29.png" alt="">
+                                <strong>핫 베리베리티</strong>
+                                <span>Hot Berryberry Tea</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>핫 베리베리티</strong>
+                                <span>Hot Berryberry Tea</span>
+                                <dd>알레르기 유발재료: 복숭아</dd>
+                                <dd>영양성분표시 1회제공량 490g (404kcal)</dd>
+                                <dd>탄수화물(100g) 당류(88g)단백질(1g)지방(0g)포화지방(0g) 나트륨(55mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu30.png" alt="">
+                                <strong>아이스 베리베리티</strong>
+                                <span>Iced Berryberry Tea</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>아이스 베리베리티</strong>
+                                <span>Iced Berryberry Tea</span>
+                                <dd>알레르기 유발재료: 복숭아</dd>
+                                <dd>영양성분표시 1회제공량 490g (340kcal)</dd>
+                                <dd>탄수화물(84g) 당류(75g)단백질(1g)지방(0g)포화지방(0g) 나트륨(30mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu31.png" alt="">
+                                <strong>레몬티</strong>
+                                <span>Lemon Tea</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>레몬티</strong>
+                                <span>Lemon Tea</span>
+                                <dd>알레르기 유발재료: 없음</dd>
+                                <dd>영양성분표시 1회제공량 320g (128kcal)</dd>
+                                <dd>탄수화물(31g) 당류(27g)단백질(1g 미만)지방(0g)포화지방(0g) 나트륨(40mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu32.png" alt="">
+                                <strong>흑당밀크티</strong>
+                                <span>Brown Sugar Milk Tea</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>흑당밀크티</strong>
+                                <span>Brown Sugar Milk Tea</span>
+                                <dd>알레르기 유발재료: 우유</dd>
+                                <dd>영양성분표시 1회제공량 485g (499kcal)</dd>
+                                <dd>탄수화물(79g) 당류(51g)단백질(12g)지방(15g)포화지방(8g) 나트륨(147mg)</dd>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                <img src="images/sub/menu33.png" alt="">
+                                <strong>흑당밀크</strong>
+                                <span>Brown Sugar Milk</span>
+                            </div>
+                            <div class="kcal">
+                                <strong>흑당밀크</strong>
+                                <span>Brown Sugar Milk</span>
+                                <dd>알레르기 유발재료: 우유</dd>
+                                <dd>영양성분표시 1회제공량 410g (412kcal)</dd>
+                                <dd>탄수화물(65g) 당류(44g)단백질(11g)지방(120g)포화지방(7g) 나트륨(130mg)</dd>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_list">
+                    <div class="footer_left">
+                        <p>24시간 창업상담(주말포함) : 02- 6263-0303</p>
+                        <div class="icon">
+                            <img src="images/f_icon1.png" alt="">
+                            <img src="images/f_icon2.png" alt="">
+                            <img src="images/f_icon3.png" alt="">
+                            <img src="images/f_icon4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_right">
+                        <address>
+                            상호명 주식회사 소라벨<br>
+                            사업자등록번호 106-87-09917 대표자 소상우<br>
+                            ADDRESS 서울 특별시 강남구 압구정로14길 28, 재동빌딩 2층</address>
+                        <div class="copy">Copyright 2017 스트릿츄러스.All rights reserved.ADMIN</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
